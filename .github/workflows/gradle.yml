@@ -25,10 +25,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: install jsoup
-      run: |
-        git clone https://github.com/jhy/jsoup.git
-        cd jsoup
-        mvn install
+      run: compile 'org.jsoup:jsoup:1.13.1'
     - name: install rhino
       run: |
         git clone https://github.com/mozilla/rhino.git
