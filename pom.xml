@@ -4,18 +4,16 @@
   <groupId>com.KBotHub.v1</groupId>
   <artifactId>v1</artifactId>
   <version>1</version>
+  <dependency>
+    <!-- jsoup HTML parser library @ https://jsoup.org/ -->
+    <groupId>org.jsoup</groupId>
+    <artifactId>jsoup</artifactId>
+    <version>1.13.1</version>
+  </dependency>
+  <!-- https://mvnrepository.com/artifact/org.mozilla/rhino -->
+  <dependency>
+      <groupId>org.mozilla</groupId>
+      <artifactId>rhino</artifactId>
+      <version>1.7.12</version>
+  </dependency>
 </project>
-
-<dependency>
-  <!-- jsoup HTML parser library @ https://jsoup.org/ -->
-  <groupId>org.jsoup</groupId>
-  <artifactId>jsoup</artifactId>
-  <version>1.13.1</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/org.mozilla/rhino -->
-<dependency>
-    <groupId>org.mozilla</groupId>
-    <artifactId>rhino</artifactId>
-    <version>1.7.12</version>
-</dependency>
