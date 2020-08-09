@@ -18,10 +18,7 @@
         <version>1.7.12</version>
     </dependency>
   </dependencies>
-  <distributionManagement>
-    <site>
-      <id>rhino-in-web.kro.kr</id>
-      <url>https://rhino-in-web.kro.kr</url>
-    </site>
-  </distributionManagement>
+  <properties>
+    <github.global.server>github</github.global.server>
+  </properties>
 </project>
