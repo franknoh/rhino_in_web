@@ -24,7 +24,3 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
-    - name: download
-      run: |
-        compile 'org.jsoup:jsoup:1.13.1'
-        
