@@ -25,5 +25,3 @@ jobs:
     - name: build site
       run: |
         mvn site
-        mvn site:deploy
-        mvn site:run
