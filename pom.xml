@@ -1,7 +1,7 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
  
-  <groupId>com.KBotHub.v1</groupId>
+  <groupId>com.riw.v1</groupId>
   <artifactId>v1</artifactId>
   <version>1</version>
   <dependencies>
@@ -18,4 +18,10 @@
         <version>1.7.12</version>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <site>
+      <id>rhino-in-web.kro.kr</id>
+      <url>https://rhino-in-web.kro.kr</url>
+    </site>
+  </distributionManagement>
 </project>
